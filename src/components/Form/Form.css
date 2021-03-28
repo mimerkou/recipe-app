@@ -1,0 +1,45 @@
+.inputForm form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+  
+.inputForm input {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: unset;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.inputForm input::placeholder {
+  color: white;
+  font-size: 18px;
+}
+  
+/* .inputForm label {
+  position: absolute;
+  left: 0%;
+  color: white;
+  transform-origin: 0 0;
+  transition: all 0.3s;
+} */
+  
+.inputForm .btn {
+  border: none;
+  background-color: unset;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+  
+/* .inputForm input:focus + label, 
+.inputForm input:not(:placeholder-shown) + label {
+  transform: translateY(-30px) scale(0.8);
+} */
